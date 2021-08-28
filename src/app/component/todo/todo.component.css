@@ -1,0 +1,11 @@
+*{
+    box-sizing: border-box;
+}
+.containers{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 10px;
+    margin: auto !important;
+   
+    
+}

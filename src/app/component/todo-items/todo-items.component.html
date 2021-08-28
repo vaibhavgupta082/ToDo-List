@@ -1,0 +1,8 @@
+<div class="card" style="width: 18rem;">
+    <div class="card-body">
+      <h5 class="card-title">{{todo.title}}</h5>
+      <p class="card-text">{{todo.desc}}</p>
+      <a href="#" class="btn btn-primary">{{todo.active}}</a>
+      <button class="btn btn-danger" (click)="onClickDelete(todo)">Delete</button>
+    </div>
+  </div>
